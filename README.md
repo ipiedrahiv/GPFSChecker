@@ -13,4 +13,4 @@ After the sbatch job completes its execution, check slurm job output to review:
 
 - Subdirectories within your project space where you do not have write permission.
 
-Launch with `sbatch --account=<ACCOUNT> [finder.sh](http://finder.sh/) <SEARCH_DIRECTORY>`
+Launch with `sbatch --account=<ACCOUNT> finder.sh <SEARCH_DIRECTORY>`
